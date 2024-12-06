@@ -1,16 +1,27 @@
 # body_measurements_app
 
-A new Flutter project.
+## Configuring and Running the Flutter Application
+1. Navigate to the flutter_app directory:
+```bash
+  cd body_measurements_app
+  ```
+(activate the conda environment again in a different CMD)
 
-## Getting Started
+2. Open `lib/main.dart` and locate the `uri.parse` line.
+![Screenshot 2024-12-06 111653](https://github.com/user-attachments/assets/2850d30a-7c93-45df-b194-634f715e247d)
 
-This project is a starting point for a Flutter application.
+3. Replace the placeholder URI with the copied Flask server address from the previous step:(the flask server address 2nd one):
+`var uri = Uri.parse("http://<your_flask_server_address>");`
 
-A few resources to get you started if this is your first Flutter project:
+4. Connect Mobile Device
+- Connect your mobile device to your PC via USB.
+- Enable USB Debugging on the mobile device.
+- Run the Flutter Application
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+5. Ensure the Conda environment is still activated in the VS Code terminal.
+- Run the Flutter app using:
+```bash
+flutter run
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Follow the on-screen instructions to test the app on your device.
