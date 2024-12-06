@@ -1,0 +1,11 @@
+# Exclude Opendr folder
+Opendr/
+
+# Exclude specific subfolders in Human-Body-Measurements-using-Computer-Vision
+Human-Body-Measurements-using-Computer-Vision/deeplab_model/
+Human-Body-Measurements-using-Computer-Vision/models/
+
+# Exclude common generated or temporary files (optional)
+*.pyc
+__pycache__/
+.DS_Store
