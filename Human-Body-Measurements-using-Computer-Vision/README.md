@@ -50,5 +50,12 @@ Type the following command on the terminal to download pre-trained model,
    where python  //to find all python.exe executables
    c:\path\to\conda\env\python app.py
     ```
+Running app.py:(use the second server address)
+![Screenshot 2024-12-06 110501](https://github.com/user-attachments/assets/d004e5d0-091f-4a90-8053-80f45d542f43)
+
+If you get errors follow step 2:
+- here is how it should look :
+![Screenshot 2024-12-06 110819](https://github.com/user-attachments/assets/b1810d00-3e2b-4eda-a2d8-44c25c12aec6)
+
 
 
