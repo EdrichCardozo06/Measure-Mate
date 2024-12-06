@@ -27,9 +27,12 @@ Built upon the Human Mesh Recovery (HMR) model, this solution serves as a powerf
 5. Compatibility: Verified with TensorFlow 1.13.1 for consistent performance.
 
 
+
+
 ## 🛠️ Technologies Used
 1. Programming Language: Python
 2. Libraries and Frameworks:
+- Flask
 
 - OpenCV: For image processing and keypoint detection.
 
@@ -39,6 +42,10 @@ Built upon the Human Mesh Recovery (HMR) model, this solution serves as a powerf
 
 3. Machine Learning Model:
 - Human Mesh Recovery (HMR): Pretrained model for 3D human pose and shape estimation.
+
+4. App devolopment:
+- Flutter 
+- Android Studio (ladybug)
 ## ⚙️ Setup and Installation
 1. Prerequisites :
 - Install Anaconda for environment management.
