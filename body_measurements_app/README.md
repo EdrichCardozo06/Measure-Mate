@@ -1,4 +1,5 @@
 # body_measurements_app
+pre-req : dowload android studio ( ladybug && flutter )
 
 ## Configuring and Running the Flutter Application
 1. Navigate to the flutter_app directory:
